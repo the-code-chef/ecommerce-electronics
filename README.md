@@ -17,7 +17,7 @@
 $ git clone https://github.com/swastikpatro/gada-electronics-ecommerce.git
 $ cd gada-electronics-ecommerce/
 $ npm install
-$ npm start
+$ NODE_OPTIONS=--openssl-legacy-provider npm start
 ```
 
 ## **Live Link :**
