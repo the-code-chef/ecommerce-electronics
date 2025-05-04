@@ -97,3 +97,17 @@
     color: var(--primary-400);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .linksContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .footer .copyrightDiv {
+    flex-direction: column;
+    font-size: 0.95rem;
+    gap: 0.25rem;
+  }
+}
